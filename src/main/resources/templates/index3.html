@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1 th:if="${flag == 'yes'}">重案功夫</h1>
+    <h1 th:unless="${flag == 'aa'}">重案功夫2</h1>
+    <div th:switch="${menu}">
+        <span th:case="admin">user is admin</span>
+        <span th:case="${manager}">user is manager</span>
+    </div>
+</body>
+</html>

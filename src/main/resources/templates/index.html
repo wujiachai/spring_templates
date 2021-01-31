@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html  xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h1 th:text="${message}"></h1>
+    id:<span th:text="${user.id}"></span>
+    name:<span th:text="${user.name}"></span>
+    age:<span th:text="${user.age}"></span>
+    <img th:src="${map.img}"/>
+</body>
+</html>
