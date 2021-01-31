@@ -2,6 +2,6 @@ package com.offcn.controller;
 
 public class tset01 {
     public static void main(String[] args) {
-            for(){}
+        System.out.println("草");
     }
 }
